@@ -1,0 +1,23 @@
+{
+  "name": "libdd-node",
+  "version": "1.0.0",
+  "description": "Doordisc common library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Discdoor/libdd-node.git"
+  },
+  "keywords": [
+    "node",
+    "doordisc"
+  ],
+  "author": "Doordisc team",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Discdoor/libdd-node/issues"
+  },
+  "homepage": "https://github.com/Discdoor/libdd-node#readme"
+}
