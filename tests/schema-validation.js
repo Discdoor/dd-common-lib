@@ -1,4 +1,3 @@
-const assert = require('assert');
 const { validateSchema } = require('../lib/schema-validator');
 
 console.log("Test #1: Simple validation");
