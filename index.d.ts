@@ -14,7 +14,7 @@ export declare namespace api {
      * @param message The message to associate.
      * @param data The data.
      */
-    function constructResponseObject<T>(success: boolean, message: string, data: T): APIResponse<T>;
+    function constructResponseObject<T>(success: boolean, message: string, data?: T): APIResponse<T>;
     
     /**
      * Sends the specified response object.
@@ -22,7 +22,7 @@ export declare namespace api {
      * @param code The status code to send.
      * @param obj The response object to send.
      */
-    function sendResponseObject<T>(res: Express.Response, code: string, obj: APIResponse<T>);
+    function sendResponseObject<T>(res: Express.Response, code: number, obj: APIResponse<T>);
 }
 
 export declare namespace schema {
