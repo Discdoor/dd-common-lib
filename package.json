@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Discdoor/libdd-node/issues"
   },
-  "homepage": "https://github.com/Discdoor/libdd-node#readme"
+  "homepage": "https://github.com/Discdoor/libdd-node#readme",
+  "dependencies": {
+    "@types/express": "^4.17.14"
+  }
 }
