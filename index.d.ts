@@ -32,5 +32,5 @@ export declare namespace schema {
      * @param inData The data to check.
      * @param strictMode Whether to strictly check objects (they must match exactly).
      */
-    function validateSchema(schema: any, inData: any, strictMode? = true): boolean;
+    function validateSchema(schema: any, inData: any, strictMode?: boolean): boolean;
 }
