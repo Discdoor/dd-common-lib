@@ -34,3 +34,20 @@ export declare namespace schema {
      */
     function validateSchema(schema: any, inData: any, strictMode?: boolean): boolean;
 }
+
+export declare namespace reflect {
+    /**
+     * Assigns the properties of a partial object to the specified object.
+     * @param obj The target object.
+     * @param part The partial object.
+     * @param exclusions Key names to exclude.
+     */
+    function assignProps(obj: any, part: any, exclusions: string[]): any;
+
+    /**
+     * Creates a shallow view of an object.
+     * @param obj The input object to filter.
+     * @param filter Items to filter out.
+     */
+    function createShallowView(obj: any, filter: string[]): any;
+}
